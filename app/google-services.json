@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "431287899098",
+    "firebase_url": "https://broprojet.firebaseio.com",
+    "project_id": "broprojet",
+    "storage_bucket": "broprojet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431287899098:android:2d6a77f2dd3dd012",
+        "android_client_info": {
+          "package_name": "com.example.tushar.bro.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431287899098-qt5pbemqlb9l8qa4mcf6d7vt1igqpctp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tushar.bro.live",
+            "certificate_hash": "f8f36ea14b0ed3ca6a3b7bdbdaf924552c029d71"
+          }
+        },
+        {
+          "client_id": "431287899098-vl7f3caufcuuok5f41ha6e0c1k9n9a97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzl5H8wHjjbj_aqok7cF5gk5BLgZ2E4oY"
+        },
+        {
+          "current_key": "AIzaSyA3CoZdIMIsOLacQViHEA4BkI_81tJ1C2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431287899098-vl7f3caufcuuok5f41ha6e0c1k9n9a97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431287899098:android:2fe3acaa6db6762c",
+        "android_client_info": {
+          "package_name": "com.example.tushar.bro.inmemory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431287899098-8rpme9tg4sqskqlmlt5rp56hauodn3ac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tushar.bro.inmemory",
+            "certificate_hash": "f8f36ea14b0ed3ca6a3b7bdbdaf924552c029d71"
+          }
+        },
+        {
+          "client_id": "431287899098-vl7f3caufcuuok5f41ha6e0c1k9n9a97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzl5H8wHjjbj_aqok7cF5gk5BLgZ2E4oY"
+        },
+        {
+          "current_key": "AIzaSyA3CoZdIMIsOLacQViHEA4BkI_81tJ1C2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431287899098-vl7f3caufcuuok5f41ha6e0c1k9n9a97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

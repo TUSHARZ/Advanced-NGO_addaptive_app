@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bro</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_rush">What is Rush</string>
+    <string name="rush_means">Rush means to Recruit</string>
+</resources>

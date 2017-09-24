@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tushar.bro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:name=".infrastructure.BroApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name=".activities.BrotherPagerActivity"
+            android:theme="@style/ActivityDialogPop">
+
+
+        </activity>
+<activity android:name=".activities.SplashScreen"
+    android:theme="@style/SplashStyle">
+
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+
+
+</activity>
+
+
+
+
+
+
+<activity android:name=".activities.photo_pager_activity"
+    android:theme="@style/ActivityDialogPop"
+    >
+
+
+</activity>
+        <activity android:name=".activities.YoutubeActivity"
+            android:theme="@style/YoutubeActivityDialogPop">
+
+        </activity>
+
+<activity android:name=".activities.Maps_Activity"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+
+
+</activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBD0MuoclNJmZx8Sfg7U26P7Ji53eAtFrA">
+
+
+        </meta-data>
+<activity android:name=".activities.web_view_maps"
+   >
+
+
+</activity>
+    </application>
+
+
+
+</manifest>

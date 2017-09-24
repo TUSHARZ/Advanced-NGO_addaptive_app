@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44000000"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context="com.example.tushar.bro.Fragments.Brother_details">
+
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:padding="6dp"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/brother_details_image"
+            android:adjustViewBounds="true"
+            android:padding="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/brother_details_progress"
+            android:layout_centerInParent="true"/>
+
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Name"
+        android:id="@+id/brother_details_name"
+        android:padding="5dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/brother_details_major"
+        android:text="Major"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/brother_details_crossed"
+        android:text="Crossed"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brother_details_fact"
+        android:text="Fact"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Why Joined??"
+
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brother_details_joined"
+        android:text="Joined Because of this shit.."/>
+v
+
+</LinearLayout>
